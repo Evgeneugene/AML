@@ -25,3 +25,8 @@ The same applies to Yolov8, the code was taken from [https://colab.research.goog
 
 ## 5. Evaluating models
 
+- mAP50 for YOLOv8n is equal to 0.694, whereas AP for Faster RCNN using detectron2 is euqal to 54.857.
+
+- Overall training speed for Faster RCNN: 597 iterations in 0:20:15 (2.0356 s / it).
+- Speed for YOLOv8n: 0.3ms pre-process, 7.7ms inference, 0.0ms loss, 1.8ms post-process per image.
+
